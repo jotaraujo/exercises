@@ -2,7 +2,7 @@ const maxProduct = arr => {
   let max1 = 0
   let max2 = 0
 
-  for (let n of arr) {
+  for (const n of arr) {
     if (n > max1) {
       max2 = max1
       max1 = n
